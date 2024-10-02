@@ -1,0 +1,20 @@
+.produitsFavoris {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* Pour centrer horizontalement */
+}
+
+.produitsFavoris img {
+  margin-right: 10px;
+  /* Ajoutez un espace à droite de l'image */
+}
+
+.produitsFavoris span {
+  flex: 1;
+  /* Pour occuper tout l'espace disponible */
+}
+
+.produitsFavoris:hover {
+  color: gray;
+}
